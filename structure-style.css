@@ -1,0 +1,39 @@
+@import url("http://fonts.cdnfonts.com/css/sifonn");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: 0.5s;
+  font-family: "Sifonn";
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.switch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
